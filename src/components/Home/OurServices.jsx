@@ -12,9 +12,9 @@ const OurServices = () => {
     <section className="py-24 px-2 bg-[#141d29]">
       <div className="container mx-auto">
         <h1 className="font-bold md:text-5xl text-3xl text-center text-white pb-5">
-          The Book Publishing Services We Provide!{" "}
+          Checkout Our Creative Ghostwriting Process
         </h1>
-        <p className="text-white text-center">
+        <p className="text-white text-center w-full max-w-[1024px] mx-auto">
           Book Writing Experts proudly provides a comprehensive range of book
           publishing services. From the initial manuscript evaluation to final
           proofreading, and including steps such as detailed editing, layout
@@ -25,7 +25,7 @@ const OurServices = () => {
           readers worldwide. Entrust your literary journey to our expert team.
         </p>
         <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-7 my-10 w-full mx-auto">
-          <div class="flip">
+          <div class="flip hover-transition">
             <div class="flip-content">
               <div class="flip-front flex flex-col items-center shadow-lg border border-white rounded-lg justify-center">
                 <img

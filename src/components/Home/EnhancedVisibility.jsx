@@ -1,30 +1,36 @@
 import React from "react";
-import { enhance } from "../../assets/images";
+import { enhance, nonfictionone, nonfictiontwo } from "../../assets/images";
 
 const EnhancedVisibility = () => {
   return (
     <>
       <section className="container mx-auto px-2">
         {/* <h1 className="font-bold md:text-5xl text-3xl text-center text-[#28a745]">
-          Why Choose Our Amazon Publishing Services?
+          Why Choose Our Atlantic Publishing Services?
         </h1> */}
         <div className="flex md:justify-evenly justify-center md:flex-row flex-col items-center my-10 mx-auto">
-          <img
-            src={enhance}
-            className="hover:border-[#28a745] mb-5 md:mb-0 w-full max-w-[450px] hover:border-2 transition-colors shadow-xl"
-            alt=""
-          />
+          <div className="flex gap-3">
+            <img
+              src={nonfictionone}
+              className="hover:border-[#28a745] mb-5 md:mb-0 w-full max-w-[250px] hover:border-2 transition-colors shadow-xl hover-transition"
+              alt=""
+            />
+            <img
+              src={nonfictiontwo}
+              className="hover:border-[#28a745] mb-5 md:mb-0 w-full max-w-[250px] hover:border-2 transition-colors shadow-xl hover-transition"
+              alt=""
+            />
+          </div>
           <div className="w-full max-w-[700px] space-y-8">
             <h1 className="font-bold text-black md:text-5xl text-3xl">
-              Enhanced Visibility and Reach
+              Non-fiction
             </h1>
             <p>
-              Choosing our Amazon Publishing Services opens up new avenues for
-              your book to reach a wider audience. With Amazon's vast customer
-              base and powerful marketing tools, we can help boost the
-              visibility of your book, increase its discoverability, and
-              maximize its potential for success. Our strategies are designed to
-              enhance your book's presence and attract more readers.
+              Our publishing services can assist you turn your expertise into
+              fascinating nonfiction. We assist you in organizing historical
+              narratives, scientific discoveries, useful manuals, or provocative
+              evaluations so that readers looking for deep understanding are
+              left with a lasting impression.
             </p>
             <div className="mt-6 md:space-y-0 space-y-3">
               <a

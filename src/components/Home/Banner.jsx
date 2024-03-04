@@ -24,14 +24,14 @@ const Banner = () => {
         <div className="flex items-center">
           {/* Content */}
           <div className="flex-1 mx-auto w-full text-center space-y-10">
-            <h1 className="md:text-5xl text-2xl leading-16">
-              Refine Your Words WIth Atlantic
+            <h1 className="md:text-7xl text-2xl leading-16">
+              Refine Your Words With Atlantic <br />
               <span className="text-[#28a745] font-bold">
                 Best Ghostwriting Services
               </span>
               .
             </h1>
-            <p className="text-base mt-4">
+            <p className="text-base mt-4 text-lg">
               Is there a story you want to tell but can't quite put your mind to
               it? Let our affordable ghostwriting services assist you to reach
               your full potential. Working together with you, our team of
@@ -45,7 +45,7 @@ const Banner = () => {
             <div className="mt-6">
               <a
                 href="#"
-                className={`inline-block border-4 border-[#28a745]  text-white py-3 px-5 rounded-full mr-4 ${
+                className={`inline-block border-4 border-[#28a745]  text-white py-3 px-5 mb-3 rounded-full mr-4 ${
                   isMobile ? "block mb-4" : "inline-block"
                 }`}
               >
@@ -53,7 +53,7 @@ const Banner = () => {
               </a>
               <a
                 href="tel: +1-(315)-417-3330"
-                className={`inline-block bg-[#28a745] hover:bg-gray-700 text-white py-3 px-5 mr-4 rounded-full ${
+                className={`inline-block bg-[#28a745] hover:bg-gray-700 text-white py-3 px-5 mr-4 mb-3 rounded-full ${
                   isMobile ? "block mb-4" : "inline-block"
                 }`}
               >

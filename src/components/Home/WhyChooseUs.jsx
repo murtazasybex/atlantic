@@ -1,25 +1,23 @@
 import React from "react";
-import { whychooseus } from "../../assets/images";
+import { fiction, fictontwo, whychooseus } from "../../assets/images";
 
 const WhyChooseUs = () => {
   return (
     <>
       <section className="container mx-auto py-20 px-2">
         <h1 className="font-bold md:text-5xl text-3xl text-center text-[#28a745]">
-          Why Choose Our Amazon Publishing Services?
+          Why Choose Our Atlantic Publishing Services?
         </h1>
         <div className="flex md:justify-evenly justify-center md:flex-row flex-col items-center my-20 mx-auto">
           <div className="w-full max-w-[700px] space-y-8">
             <h1 className="font-bold text-black md:text-5xl text-3xl">
-              Prime-Quality and Expertise
+              Fiction
             </h1>
             <p>
-              Our Amazon Publishing Services are backed by a team of experienced
-              professionals who have in-depth knowledge and expertise in the
-              publishing industry. We are committed to delivering high-quality
-              content that meets industry standards and exceeds your
-              expectations. With our services, you can trust that your books
-              will be handled with care and precision.
+              Write thrilling stories that take readers to exciting adventures,
+              imaginative universes, or tragic human situations. We help you
+              with every step of the process, from story structure to character
+              development, so your creative masterpiece comes to life.
             </p>
             <div className="mt-6 md:space-y-0 space-y-3">
               <a
@@ -36,11 +34,18 @@ const WhyChooseUs = () => {
               </a>
             </div>
           </div>
-          <img
-            src={whychooseus}
-            className="hover:border-[#28a745] w-full max-w-[400px] hover:border-2 md:mt-0 mt-8 transition-colors shadow-xl"
-            alt=""
-          />
+          <div className="flex gap-3">
+            <img
+              src={fiction}
+              className="hover:border-[#28a745] w-full max-w-[230px] hover:border-2 md:mt-0 mt-8 transition-colors shadow-xl hover-transition"
+              alt=""
+            />
+            <img
+              src={fictontwo}
+              className="hover:border-[#28a745] w-full max-w-[230px] hover:border-2 md:mt-0 mt-8 transition-colors shadow-xl hover-transition"
+              alt=""
+            />
+          </div>
         </div>
       </section>
     </>

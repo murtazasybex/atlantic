@@ -1,26 +1,27 @@
 import React from "react";
-import { streamline } from "../../assets/images";
+import {
+  autobiographyone,
+  autobiographytwo,
+  streamline,
+} from "../../assets/images";
 
 const StreamlinedPublishing = () => {
   return (
     <>
-      <section className="container mx-auto py-20 px-2">
+      <section className="container mx-auto py-10 px-2">
         {/* <h1 className="font-bold md:text-5xl text-3xl text-center text-[#28a745]">
-          Why Choose Our Amazon Publishing Services?
+          Why Choose Our Atlantic Publishing Services?
         </h1> */}
-        <div className="flex md:justify-evenly justify-center md:flex-row flex-col items-center my-20 mx-auto">
+        <div className="flex md:justify-evenly justify-center md:flex-row flex-col items-center my-10 mx-auto">
           <div className="w-full max-w-[700px] space-y-8 mb-8 md:mb-0">
             <h1 className="font-bold text-black md:text-5xl text-3xl">
-              Streamlined Publishing Process
+              Autobiography
             </h1>
             <p>
-              We at Book Writing Experts understand the importance of a smooth
-              and efficient book publishing process. With our services, you can
-              expect a streamlined workflow that simplifies the publishing
-              journey. From manuscript formatting and editing to cover design
-              and eBook conversion, we handle every aspect professionally,
-              allowing you to focus on your writing while we take care of the
-              technicalities.
+              Take a self-exploration trip and motivate others by using our
+              autobiography publication services. We help you create an engaging
+              story that reveals your own experiences, struggles, and victories
+              while leaving a lasting impression.
             </p>
             <div className="mt-6 md:space-y-0 space-y-3">
               <a
@@ -37,11 +38,18 @@ const StreamlinedPublishing = () => {
               </a>
             </div>
           </div>
-          <img
-            src={streamline}
-            className="hover:border-[#28a745] w-full max-w-[400px] hover:border-2 transition-colors shadow-xl"
-            alt=""
-          />
+          <div className="flex gap-3">
+            <img
+              src={autobiographyone}
+              className="hover:border-[#28a745] w-full max-w-[400px] hover:border-2 transition-colors shadow-xl hover-transition"
+              alt=""
+            />
+            <img
+              src={autobiographytwo}
+              className="hover:border-[#28a745] w-full max-w-[400px] hover:border-2 transition-colors shadow-xl hover-transition  "
+              alt=""
+            />
+          </div>
         </div>
       </section>
     </>

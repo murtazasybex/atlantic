@@ -11,7 +11,11 @@ const Value = () => {
               key={index}
               className="flex justify-center items-center flex-col w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6 space-y-4"
             >
-              <img src={value.image} className="w-full max-w-[80px]" alt="" />
+              <img
+                src={value.image}
+                className="w-full max-w-[80px] hover-transition"
+                alt=""
+              />
               <p className="text-white font-semibold text-center">
                 {value.label}
               </p>

@@ -17,7 +17,7 @@ const Client = () => {
       {
         breakpoint: 1800,
         settings: {
-          slidesToShow: 6,
+          slidesToShow: 5,
         },
       },
       {
@@ -50,7 +50,11 @@ const Client = () => {
           <Slider ref={sliderRef} {...settings}>
             {partnerLogos.map((logo, index) => (
               <div key={index} className="mx-2">
-                <img src={logo} alt={`Partner Logo ${index + 1}`} />
+                <img
+                  src={logo}
+                  className="img-invert hover-transition"
+                  alt={`Partner Logo ${index + 1}`}
+                />
               </div>
             ))}
           </Slider>

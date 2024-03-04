@@ -22,7 +22,7 @@ const BookPublishingJourney = () => {
         <div className="flex flex-wrap justify-center md:justify-evenly items-center">
           {/* col1 */}
           <div>
-            <div className="border border-[#cbcbcb] py-12 px-3 w-full max-w-[500px]">
+            <div className="border border-[#cbcbcb] py-12 px-3 w-full max-w-[500px] hover-transition">
               <h1 className="font-semibold text-xl pb-2">
                 Manuscript Assessment
               </h1>
@@ -35,7 +35,7 @@ const BookPublishingJourney = () => {
             <h1 className="font-semibold text-[#28a745] text-5xl text-right py-8">
               02
             </h1>
-            <div className="border border-[#cbcbcb]  py-12 px-3 w-full max-w-[500px]">
+            <div className="border border-[#cbcbcb]  py-12 px-3 w-full max-w-[500px] hover-transition">
               <h1 className="font-semibold text-xl pb-2">Design and Layout</h1>
               <p className="text-sm text-gray-700">
                 Once the editing phase is complete, our talented designers step
@@ -47,7 +47,7 @@ const BookPublishingJourney = () => {
             <h1 className="font-semibold text-[#28a745] text-5xl text-right py-8">
               04
             </h1>
-            <div className="border border-[#cbcbcb] py-12 px-3 w-full max-w-[500px]">
+            <div className="border border-[#cbcbcb] py-12 px-3 w-full max-w-[500px] hover-transition">
               <h1 className="font-semibold text-xl pb-2">
                 Distribution, Marketing, and Copyright
               </h1>
@@ -67,7 +67,7 @@ const BookPublishingJourney = () => {
             <h1 className="font-semibold text-[#28a745] text-5xl text-left py-8">
               01
             </h1>
-            <div className="border border-[#cbcbcb] py-12 px-3 w-full max-w-[500px]">
+            <div className="border border-[#cbcbcb] py-12 px-3 w-full max-w-[500px] hover-transition">
               <h1 className="font-semibold text-xl pb-2">
                 Editing and Refinement
               </h1>
@@ -80,7 +80,7 @@ const BookPublishingJourney = () => {
             <h1 className="font-semibold text-[#28a745] text-5xl text-left py-8">
               03
             </h1>
-            <div className="border border-[#cbcbcb] py-12 px-3 w-full max-w-[500px]">
+            <div className="border border-[#cbcbcb] py-12 px-3 w-full max-w-[500px] hover-transition">
               <h1 className="font-semibold text-xl pb-2">Book Preparation</h1>
               <p className="text-sm text-gray-700">
                 We then prepare your book for publishing. Every detail is

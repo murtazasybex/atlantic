@@ -3,11 +3,11 @@ import close from "./close.svg";
 import logo from "./logo.png";
 import client from "./client.webp";
 import homebanner from "./homebanner.jpg";
-import partnerslogoone from "./partnerslogo-one.webp";
-import partnerslogotwo from "./partnerslogo-two.webp";
-import partnerslogothree from "./partnerslogo-three.webp";
-import partnerslogofour from "./partnerslogo-four.webp";
-import partnerslogofive from "./partnerslogo-five.webp";
+import partnerslogoone from "./partnerslogoone.png";
+import partnerslogotwo from "./partnerslogotwo.png";
+import partnerslogothree from "./partnerslogothree.png";
+import partnerslogofour from "./partnerslogofour.png";
+import partnerslogofive from "./partnerslogofive.png";
 import partnerslogosix from "./partnerslogo-six.webp";
 import partnerslogoseven from "./partnerslogo-seven.webp";
 import partnerslogoeight from "./partnerslogo-eight.webp";
@@ -78,8 +78,24 @@ import ghostwriting from "./ghostwriting.webp";
 import marketing from "./marketing.webp";
 import publishing from "./publishing.webp";
 import illustration from "./illustration.webp";
+import fiction from "./fiction.webp";
+import fictontwo from "./fictiontwo.webp";
+import nonfictionone from "./nonfictionone.webp";
+import nonfictiontwo from "./nonfictiontwo.webp";
+import autobiographyone from "./autobiographyone.webp";
+import autobiographytwo from "./autobiographytwo.webp";
+import memoireone from "./memoirone.webp";
+import memoirtwo from "./memoirtwo.webp";
 
 export {
+  memoireone,
+  memoirtwo,
+  autobiographyone,
+  autobiographytwo,
+  nonfictionone,
+  nonfictiontwo,
+  fiction,
+  fictontwo,
   ghostwriting,
   marketing,
   publishing,

@@ -95,9 +95,6 @@ export const partnerLogos = [
   partnerslogothree,
   partnerslogofour,
   partnerslogofive,
-  partnerslogosix,
-  partnerslogoseven,
-  partnerslogoeight,
 ];
 
 export const values = [
@@ -122,24 +119,24 @@ export const values = [
 export const testimonialsData = [
   {
     clientImage: clientthree,
-    clientName: "Glint",
+    clientName: "Mark T.",
     rating: 5,
     testimonialText:
-      "As an author who dreamed of seeing my book listed on all the major platforms, including Goodreads, Amazon, BookBub, and Apple Books, I am thrilled to say that my expectations have been surpassed. Thanks to the dedicated efforts of Book writing experts, my book has achieved widespread visibility and success.",
+      "I wouldn't have had the confidence to tell my experience if it weren't for Atlantic. They helped me to get past my doubts and release my story. I'm grateful.",
   },
   {
     clientImage: clienttwo,
-    clientName: "Silas micah",
+    clientName: "John H.",
     rating: 5,
     testimonialText:
-      "My expectations were surpassed by The Book Writing Experts’ audio book services. With a crystal-clear and captivating narrative, the production value was excellent, holding listeners’ attention from beginning to end. The Book Writing Experts easily turned my thoughts into an engaging audio experience that connected with my audience.",
+      "My childhood ambition of being a published author came true with the support of Atlantic Ghostwriting Services. Their authors are really creative and did a fantastic job capturing my voice!",
   },
   {
     clientImage: clientone,
-    clientName: "Terrif Hawlk",
+    clientName: "Sarah K.",
     rating: 5,
     testimonialText:
-      "Book Writing Experts gave my book the professional push it needed to make a splash in the literary world. Their strategies were targeted and effective, helping me reach readers all over the globe. TBH, I was not sure if they could walk the talk because the support person was clueless of what I used to tell him, but overall, I enjoyed working with them every step of the way and was amazed by the results. If you’re looking for the best in book marketing services, look no further than Book Writing Experts!",
+      "I received skilled and expert guidance from Atlantic's team throughout the whole ghostwriting process, from brainstorming to final modifications. I strongly recommend them!",
   },
 ];
 

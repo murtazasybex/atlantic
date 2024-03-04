@@ -42,7 +42,7 @@ const Testimonials = () => {
                 Client Testimonials
               </p>
               <h1 className="font-bold md:text-5xl text-2xl pt-3 pb-7">
-                The Stamp of Approval for Our Services
+                From Dreams to Published Reality- What Our Clients Say
               </h1>
               <p className="md:text-2xl text-lg">
                 {testimonial.testimonialText}

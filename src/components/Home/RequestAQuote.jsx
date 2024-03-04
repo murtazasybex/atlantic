@@ -9,7 +9,7 @@ const RequestAQuote = () => {
           Can't Reach Us?
         </h1>
         <form
-          className="space-y-8"
+          className=""
           action="https://leads.infinityprojectmanager.com/brand/createspacepublishing/lead"
           method="GET"
         >
@@ -24,7 +24,7 @@ const RequestAQuote = () => {
             name="lead_area"
             value="https://createspacepublishing.com/"
           />
-          <div className="flex flex-col md:flex-row justify-center w-full max-w-[1100px] mx-auto space-y-5 md:space-y-0 md:space-x-5 py-12">
+          <div className="flex flex-col md:flex-row justify-center w-full max-w-[1100px] mx-auto space-y-5 md:space-y-0 md:space-x-5 py-8">
             <input
               className="border-2 border-[#28a745] py-4 px-3 w-full font-normal outline-none"
               type="text"

@@ -7,7 +7,7 @@ const CTAOne = () => {
       <section className="mx-auto container py-10 px-2">
         <div className="flex flex-col md:flex-row items-center justify-center">
           <div className="w-full max-w-[650px] space-y-8 mb-8 md:mb-0 md:mr-8">
-            <h1 className="text-black md:text-5xl text-2xl font-bold leading-16">
+            <h1 className="text-black md:text-5xl text-2xl font-bold leading-10">
               Choose Our{" "}
               <span className="text-[#28a745]">Book Publishing Company</span>{" "}
               and Expand Your Reach in the Book Realm!
