@@ -28,7 +28,7 @@ const Header = () => {
             </div>
 
             {/* Mobile Menu Toggle Button */}
-            <div className="md:hidden">
+            <div className="lg:hidden">
               <button
                 onClick={() => setToggle(!toggle)}
                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
@@ -55,7 +55,7 @@ const Header = () => {
 
             {/* Navigation Links */}
             <div
-              className="hidden md:block"
+              className="hidden lg:block"
               onMouseEnter={() => setToggle(true)}
               onMouseLeave={() => setToggle(false)}
             >
@@ -210,7 +210,7 @@ const Header = () => {
               </ul>
             </div>
             {/* Buttons */}
-            <div className="lg:flex items-center hidden">
+            <div className="xl:flex items-center hidden">
               <a
                 href="tel:+1-(315)-417-3330"
                 className="inline-block bg-[#28a745] transition-colors hover:bg-gray-700 text-white py-2 px-4 rounded-full mr-4"
