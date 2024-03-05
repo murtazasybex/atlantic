@@ -1,5 +1,6 @@
 import React from "react";
 import { ctabg } from "../../assets/images";
+import { NavLink } from "react-router-dom";
 
 const HireCompanyCTA = () => {
   return (
@@ -26,12 +27,12 @@ const HireCompanyCTA = () => {
               </p>
 
               <div className="mt-6 md:space-y-0 space-y-3">
-                {/* <a
-                  href="#"
+                <NavLink
+                  to="javascript:$zopim.livechat.window.show();"
                   className="inline-block bg-[#28a745] text-white border-transparent py-2 px-5 rounded-full mr-4"
                 >
                   Looking For A Publishing Partner? Hire Us Today!
-                </a> */}
+                </NavLink>
                 <a
                   href="tel:+1-(315)-417-3330"
                   className="inline-block border-2 border-white text-white py-2 px-5 rounded-full"

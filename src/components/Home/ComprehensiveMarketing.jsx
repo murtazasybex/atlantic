@@ -1,5 +1,6 @@
 import React from "react";
-import { comprehensive, memoireone, memoirtwo } from "../../assets/images";
+import { memoireone, memoirtwo } from "../../assets/images";
+import { NavLink } from "react-router-dom";
 
 const ComprehensiveMarketing = () => {
   return (
@@ -9,7 +10,7 @@ const ComprehensiveMarketing = () => {
           Why Choose Our Atlantic Publishing Services?
         </h1> */}
         <div className="flex md:justify-evenly justify-center md:flex-row flex-col items-center my-10 pb-8 mx-auto">
-          <div className="flex gap-3">
+          <div className="flex md:flex-row flex-col gap-3">
             <img
               src={memoireone}
               className="hover:border-[#28a745] hover-transition w-full max-w-[450px] mb-8 md:mb-0 hover:border-2 transition-colors shadow-xl"
@@ -33,12 +34,12 @@ const ComprehensiveMarketing = () => {
               on the world.
             </p>
             <div className="mt-6 md:space-y-0 space-y-3">
-              <a
-                href="#"
+              <NavLink
+                to="javascript:$zopim.livechat.window.show();"
                 className="inline-block border-2 border-[#28a745] py-3 px-5 rounded-full mr-4"
               >
                 Click On This Chat Button and Get Our Assistance
-              </a>
+              </NavLink>
               <a
                 href="tel: +1-(315)-417-3330"
                 className="inline-block  bg-[#28a745] text-white font-medium py-3 hover:bg-gray-800 transition-colors px-5 rounded-full"

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { client, homebanner } from "../../assets/images";
+import { NavLink } from "react-router-dom";
 
 const Banner = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -43,15 +44,15 @@ const Banner = () => {
               with us right now.
             </p>
             <div className="mt-6">
-              <a
-                href="#"
+              <NavLink
+                to="javascript:$zopim.livechat.window.show();"
                 onClick="$zopim.livechat.window.show()"
                 className={`inline-block border-4 border-[#28a745]  text-white py-3 px-5 mb-3 rounded-full mr-4 ${
                   isMobile ? "block mb-4" : "inline-block"
                 }`}
               >
                 Hire The Best Book Publishers Today!
-              </a>
+              </NavLink>
               <a
                 href="tel: +1-(315)-417-3330"
                 className={`inline-block bg-[#28a745] hover:bg-gray-700 text-white py-3 px-5 mr-4 mb-3 rounded-full ${

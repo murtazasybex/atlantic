@@ -1,5 +1,6 @@
 import React from "react";
 import { fiction, fictontwo, whychooseus } from "../../assets/images";
+import { NavLink } from "react-router-dom";
 
 const WhyChooseUs = () => {
   return (
@@ -20,12 +21,12 @@ const WhyChooseUs = () => {
               development, so your creative masterpiece comes to life.
             </p>
             <div className="mt-6 md:space-y-0 space-y-3">
-              {/* <a
-                href="#"
+              <NavLink
+                to="javascript:$zopim.livechat.window.show();"
                 className="inline-block border-2 border-[#28a745] py-3 px-5 rounded-full mr-4"
               >
                 Consult With Our Expert Team Now!
-              </a> */}
+              </NavLink>
               <a
                 href="tel:+1-(315)-417-3330"
                 className="inline-block  bg-[#28a745] text-white font-medium py-3 hover:bg-gray-800 transition-colors px-5 rounded-full"
@@ -34,7 +35,7 @@ const WhyChooseUs = () => {
               </a>
             </div>
           </div>
-          <div className="flex gap-3">
+          <div className="flex md:flex-row flex-col gap-3">
             <img
               src={fiction}
               className="hover:border-[#28a745] w-full max-w-[230px] hover:border-2 md:mt-0 mt-8 transition-colors shadow-xl hover-transition"
