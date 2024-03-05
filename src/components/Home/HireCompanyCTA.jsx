@@ -26,14 +26,14 @@ const HireCompanyCTA = () => {
               </p>
 
               <div className="mt-6 md:space-y-0 space-y-3">
-                <a
+                {/* <a
                   href="#"
                   className="inline-block bg-[#28a745] text-white border-transparent py-2 px-5 rounded-full mr-4"
                 >
                   Looking For A Publishing Partner? Hire Us Today!
-                </a>
+                </a> */}
                 <a
-                  href="tel: +1-(315)-417-3330"
+                  href="tel:+1-(315)-417-3330"
                   className="inline-block border-2 border-white text-white py-2 px-5 rounded-full"
                 >
                   Call Us At +1-(315)-417-3330

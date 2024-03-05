@@ -10,19 +10,19 @@ const RequestAQuote = () => {
         </h1>
         <form
           className=""
-          action="https://leads.infinityprojectmanager.com/brand/createspacepublishing/lead"
+          action="https://leads.infinityprojectmanager.com/brand/atlanticbookpublisher/lead"
           method="GET"
         >
           <input
             type="hidden"
             name="brand_name"
-            value="createspacepublishing.com"
+            value="atlanticbookpublisher.com"
           />
           <input
             type="hidden"
             id="lead_area"
             name="lead_area"
-            value="https://createspacepublishing.com/"
+            value="https://atlanticbookpublisher.com/"
           />
           <div className="flex flex-col md:flex-row justify-center w-full max-w-[1100px] mx-auto space-y-5 md:space-y-0 md:space-x-5 py-8">
             <input
@@ -44,16 +44,17 @@ const RequestAQuote = () => {
               type="tel"
               required
               name="phone"
+              maxLength={10}
               placeholder="Phone"
             />
           </div>
           <div className="flex justify-center items-center">
-            <a
-              href="callto:+1-(315)-417-3330"
+            <button
+              type="submit"
               className="inline-block bg-[#28a745] hover:bg-[#28a745]/90 font-semibold transition-colors text-white py-3 px-8 mr-4"
             >
               Best time to jump on a quick call:
-            </a>
+            </button>
           </div>
         </form>
         {/* <div className="flex flex-col md:flex-row justify-around py-20">

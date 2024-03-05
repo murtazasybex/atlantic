@@ -25,16 +25,16 @@ const OurServices = () => {
           readers worldwide. Entrust your literary journey to our expert team.
         </p>
         <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-7 my-10 w-full mx-auto">
-          <div class="flip hover-transition">
-            <div class="flip-content">
-              <div class="flip-front flex flex-col items-center shadow-lg border border-white rounded-lg justify-center">
+          <div className="flip hover-transition">
+            <div className="flip-content">
+              <div className="flip-front flex flex-col items-center shadow-lg border border-white rounded-lg justify-center">
                 <img
                   src={discussion}
                   className="w-full max-w-[60px] mb-3 img-invert"
                 />
                 <h1 className="text-white font-bold text-2xl">Development</h1>
               </div>
-              <div class="flip-back flex flex-col items-center justify-center shadow-lg border-2 border-whtie rounded-lg">
+              <div className="flip-back flex flex-col items-center justify-center shadow-lg border-2 border-whtie rounded-lg">
                 <h1 className=" text-white font-bold text-2xl pt-3">
                   Development
                 </h1>
@@ -47,16 +47,16 @@ const OurServices = () => {
               </div>
             </div>
           </div>
-          <div class="flip">
-            <div class="flip-content">
-              <div class="flip-front flex flex-col items-center shadow-lg border border-white rounded-lg justify-center">
+          <div className="flip">
+            <div className="flip-content">
+              <div className="flip-front flex flex-col items-center shadow-lg border border-white rounded-lg justify-center">
                 <img
                   src={development}
                   className="w-full max-w-[60px] mb-3 img-invert"
                 />
                 <h1 className="text-white font-bold text-2xl">Design</h1>
               </div>
-              <div class="flip-back flex flex-col items-center justify-center shadow-lg border-2 border-whtie rounded-lg">
+              <div className="flip-back flex flex-col items-center justify-center shadow-lg border-2 border-whtie rounded-lg">
                 <h1 className=" text-white font-bold text-2xl pt-3">Design</h1>
                 <p className="text-sm text-white-700 p-3">
                   Together, we come up with a design that effectively captures
@@ -67,16 +67,16 @@ const OurServices = () => {
               </div>
             </div>
           </div>
-          <div class="flip">
-            <div class="flip-content">
-              <div class="flip-front flex flex-col items-center shadow-lg border border-white rounded-lg justify-center">
+          <div className="flip">
+            <div className="flip-content">
+              <div className="flip-front flex flex-col items-center shadow-lg border border-white rounded-lg justify-center">
                 <img
                   src={design}
                   className="w-full max-w-[60px] mb-3 img-invert"
                 />
                 <h1 className="text-white font-bold text-2xl">Deployment</h1>
               </div>
-              <div class="flip-back flex flex-col items-center justify-center shadow-lg border-2 border-whtie rounded-lg">
+              <div className="flip-back flex flex-col items-center justify-center shadow-lg border-2 border-whtie rounded-lg">
                 <h1 className=" text-white font-bold text-2xl pt-3">
                   Deployment
                 </h1>
@@ -89,16 +89,16 @@ const OurServices = () => {
               </div>
             </div>
           </div>
-          <div class="flip">
-            <div class="flip-content">
-              <div class="flip-front flex flex-col items-center shadow-lg border border-white rounded-lg justify-center">
+          <div className="flip">
+            <div className="flip-content">
+              <div className="flip-front flex flex-col items-center shadow-lg border border-white rounded-lg justify-center">
                 <img
                   src={deployment}
                   className="w-full max-w-[60px] mb-3 img-invert"
                 />
                 <h1 className="text-white font-bold text-2xl">Discussion</h1>
               </div>
-              <div class="flip-back flex flex-col items-center justify-center shadow-lg border-2 border-whtie rounded-lg">
+              <div className="flip-back flex flex-col items-center justify-center shadow-lg border-2 border-whtie rounded-lg">
                 <h1 className=" text-white font-bold text-2xl pt-3">
                   Discussion
                 </h1>

@@ -24,14 +24,14 @@ const StreamlinedPublishing = () => {
               while leaving a lasting impression.
             </p>
             <div className="mt-6 md:space-y-0 space-y-3">
-              <a
+              {/* <a
                 href="#"
                 className="inline-block border-2 border-[#28a745] py-3 px-5 rounded-full mr-4"
               >
                 Chat Now!
-              </a>
+              </a> */}
               <a
-                href="tel: +1-(315)-417-3330"
+                href="tel:+1-(315)-417-3330"
                 className="inline-block  bg-[#28a745] text-white font-medium py-3 hover:bg-gray-800 transition-colors px-5 rounded-full"
               >
                 +1-(315)-417-3330

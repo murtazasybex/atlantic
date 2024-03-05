@@ -86,8 +86,14 @@ import autobiographyone from "./autobiographyone.webp";
 import autobiographytwo from "./autobiographytwo.webp";
 import memoireone from "./memoirone.webp";
 import memoirtwo from "./memoirtwo.webp";
+import modalimg from "./modalimg.jpg";
+import X from "./X.svg";
+import fav from "./fav.png";
 
 export {
+  fav,
+  X,
+  modalimg,
   memoireone,
   memoirtwo,
   autobiographyone,

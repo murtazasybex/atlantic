@@ -3,8 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {
-  awardfour,
-  awardone,
+  X,
   cards,
   email,
   fb,
@@ -14,8 +13,6 @@ import {
   logo,
   phone,
   protectedimg,
-  twitter,
-  youtube,
 } from "../assets/images";
 import { awardsOne, awardsTwo } from "../constants";
 
@@ -29,6 +26,7 @@ const Footer = () => {
     autoplay: true,
     autoplaySpeed: 4000,
   };
+
   return (
     <>
       <footer className="w-full mx-auto bg-[#171C22] h-50">
@@ -76,21 +74,40 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex space-x-2 pt-4">
-              <div className="bg-[#28a745] rounded-full w-8 h-8 flex items-center justify-center hover:bg-[#28a745]/80 transition-colors cursor-pointer">
+              <a
+                href="https://www.facebook.com/AtlanticBookPublisher/"
+                target="_blank"
+                className="bg-[#28a745] rounded-full w-8 h-8 flex items-center justify-center hover:bg-[#28a745]/80 transition-colors cursor-pointer"
+              >
                 <img src={fb} className="invert" alt="" />
-              </div>
-              <div className="bg-[#28a745] rounded-full w-8 h-8 flex items-center justify-center hover:bg-[#28a745]/80 transition-colors cursor-pointer">
-                <img src={twitter} className="invert" alt="" />
-              </div>
-              <div className="bg-[#28a745] rounded-full w-8 h-8 flex items-center justify-center hover:bg-[#28a745]/80 transition-colors cursor-pointer">
+              </a>
+              <a
+                href="https://www.threads.net/@atlanticbookpublisher"
+                target="_blank"
+                className="bg-[#28a745] rounded-full w-8 h-8 flex items-center justify-center hover:bg-[#28a745]/80 transition-colors cursor-pointer"
+              >
+                <img src={X} className="w-4" alt="" />
+              </a>
+              <a
+                href="https://www.instagram.com/atlanticbookpublisher/"
+                target="_blank"
+                className="bg-[#28a745] rounded-full w-8 h-8 flex items-center justify-center hover:bg-[#28a745]/80 transition-colors cursor-pointer"
+              >
                 <img src={insta} className="invert" alt="" />
-              </div>
-              <div className="bg-[#28a745] rounded-full w-8 h-8 hover:bg-[#28a745]/80 transition-colors cursor-pointer flex items-center justify-center">
+              </a>
+              {/* <a
+                href="#"
+                className="bg-[#28a745] rounded-full w-8 h-8 hover:bg-[#28a745]/80 transition-colors cursor-pointer flex items-center justify-center"
+              >
                 <img src={youtube} className="invert" alt="" />
-              </div>
-              <div className="bg-[#28a745] rounded-full w-8 h-8 hover:bg-[#28a745]/80 transition-colors cursor-pointer flex items-center justify-center">
+              </a> */}
+              <a
+                href="https://www.linkedin.com/company/atlantic-book-publisher/"
+                target="_blank"
+                className="bg-[#28a745] rounded-full w-8 h-8 hover:bg-[#28a745]/80 transition-colors cursor-pointer flex items-center justify-center"
+              >
                 <img src={linkedin} className="invert" alt="" />
-              </div>
+              </a>
             </div>
 
             <img src={protectedimg} className="pt-5" alt="" />

@@ -1,7 +1,9 @@
-import React from "react";
-import { tick } from "../../assets/images";
+import React, { useState } from "react";
+import Modal from "./Modal";
 
 const CTAOne = () => {
+  const [openModal, setOpenModal] = useState(false);
+
   return (
     <>
       <section className="mx-auto container py-10 px-2">
@@ -56,12 +58,13 @@ const CTAOne = () => {
               </ul>
             </div> */}
             <div className="mt-6 space-x-3 flex flex-col sm:flex-row items-center">
-              <a
-                href="#"
+              <button
+                onClick={() => setOpenModal(true)}
                 className="inline-block bg-[#28a745] text-white py-4 px-4 rounded-full mb-3 sm:mb-0"
               >
                 Get a Free Proposal
-              </a>
+              </button>
+              <Modal open={openModal} onClose={() => setOpenModal(false)} />
 
               <a
                 href="tel: +1-(315)-417-3330"
@@ -80,19 +83,19 @@ const CTAOne = () => {
             </p>
             <form
               className="space-y-8 py-10"
-              action="https://leads.infinityprojectmanager.com/brand/createspacepublishing/lead"
+              action="https://leads.infinityprojectmanager.com/brand/atlanticbookpublisher/lead"
               method="GET"
             >
               <input
                 type="hidden"
                 name="brand_name"
-                value="createspacepublishing.com"
+                value="atlanticbookpublisher.com"
               />
               <input
                 type="hidden"
                 id="lead_area"
                 name="lead_area"
-                value="https://createspacepublishing.com/"
+                value="https://atlanticbookpublisher.com/"
               />
               <div className="border-b py-5">
                 <input
@@ -117,6 +120,7 @@ const CTAOne = () => {
                   type="tel"
                   required
                   name="phone"
+                  maxLength={10}
                   className="outline-none w-full font-normal"
                   placeholder="Phone Number:"
                 />
@@ -130,12 +134,12 @@ const CTAOne = () => {
                   placeholder="Your project brief:"
                 />
               </div>
-              <a
-                href="tel:#"
+              <button
+                type="submit"
                 className="inline-block bg-[#28a745] font-semibold text-center text-white py-2 px-5 w-full rounded-full"
               >
                 Best time to jump on a quick call:
-              </a>
+              </button>
             </form>
           </div>
         </div>

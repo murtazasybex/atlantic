@@ -31,7 +31,7 @@ const Banner = () => {
               </span>
               .
             </h1>
-            <p className="text-base mt-4 text-lg">
+            <p className="text-base mt-4">
               Is there a story you want to tell but can't quite put your mind to
               it? Let our affordable ghostwriting services assist you to reach
               your full potential. Working together with you, our team of
@@ -45,6 +45,7 @@ const Banner = () => {
             <div className="mt-6">
               <a
                 href="#"
+                onClick="$zopim.livechat.window.show()"
                 className={`inline-block border-4 border-[#28a745]  text-white py-3 px-5 mb-3 rounded-full mr-4 ${
                   isMobile ? "block mb-4" : "inline-block"
                 }`}

@@ -7,11 +7,14 @@ import {
   marketing,
   publishing,
 } from "../assets/images";
+import { Link } from "react-router-dom";
+import Modal from "./Home/Modal";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [hovered, setHovered] = useState(false);
   const [activeTab, setActiveTab] = useState(0);
+  const [openModal, setOpenModal] = useState(false);
 
   const handleTabClick = (index) => {
     setActiveTab(index);
@@ -23,13 +26,14 @@ const Header = () => {
         <nav className="max-w-7xl mx-auto container px-4">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <div className="flex-shrink-0 flex items-center">
-              <img className="w-full max-w-[250px]" src={logo} alt="Logo" />
-            </div>
-
+            <Link to="https://atlanticbookpublisher.com/">
+              <div className="flex-shrink-0 flex items-center">
+                <img className="w-full max-w-[250px]" src={logo} alt="Logo" />
+              </div>
+            </Link>
             {/* Mobile Menu Toggle Button */}
             {/* <div className="lg:hidden">
-              <button
+              <button 
                 onClick={() => setToggle(!toggle)}
                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
               >
@@ -54,7 +58,7 @@ const Header = () => {
             </div> */}
 
             {/* Navigation Links */}
-            <div
+            {/* <div
               className="hidden xl:block"
               onMouseEnter={() => setToggle(true)}
               onMouseLeave={() => setToggle(false)}
@@ -199,15 +203,15 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="text-white">
-                  <a
-                    href="#"
+                  <Link
+                    to="test"
                     className="hover:text-[#28a745] cursor-pointer transition-colors px-3 py-2 text-sm font-medium"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
             {/* Buttons */}
             <div className="md:flex items-center hidden">
               <a
@@ -216,9 +220,13 @@ const Header = () => {
               >
                 +1-(315)-417-3330{" "}
               </a>
-              <button className="inline-block border-2 border-[#28a745] transition-colors hover:bg-[#28a745] text-white py-2 px-4 rounded-full">
+              <button
+                onClick={() => setOpenModal(true)}
+                className="inline-block border-2 border-[#28a745] transition-colors hover:bg-[#28a745] text-white py-2 px-4 rounded-full"
+              >
                 GET A QUOTE
               </button>
+              <Modal open={openModal} onClose={() => setOpenModal(false)} />
             </div>
           </div>
           {/* Dropdown Menu (Mobile) */}

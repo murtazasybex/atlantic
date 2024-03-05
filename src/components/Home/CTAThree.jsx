@@ -29,12 +29,12 @@ const CTAThree = () => {
                 famous!
               </p>
               <div className="mt-6 md:space-y-0 space-y-3">
-                <a
+                {/* <a
                   href="#"
                   className="inline-block bg-[#28a745] text-white py-2 border-transparent px-5 rounded-full mr-4"
                 >
                   Chat With Our Expert Now!
-                </a>
+                </a> */}
                 <a
                   href="tel: +1-(315)-417-3330"
                   className="inline-block border-2 border-white text-white py-2 px-4 rounded-full"
