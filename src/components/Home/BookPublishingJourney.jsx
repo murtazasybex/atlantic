@@ -61,7 +61,7 @@ const BookPublishingJourney = () => {
             </div>
           </div>
           {/* col2 */}
-          <img src={line} className="md:flex hidden line-img h-full" alt="" />
+          <img src={line} className="lg:flex hidden line-img h-full" alt="" />
           {/* col3 */}
           <div>
             <h1 className="font-semibold text-[#28a745] text-5xl text-left py-8">

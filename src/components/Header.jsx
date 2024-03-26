@@ -215,10 +215,10 @@ const Header = () => {
             {/* Buttons */}
             <div className="md:flex items-center hidden">
               <a
-                href="tel:+1-(315)-417-3330"
+                href="tel:+1-(312)-765-7097"
                 className="inline-block bg-[#28a745] transition-colors hover:bg-gray-700 text-white py-2 px-4 rounded-full mr-4"
               >
-                +1-(315)-417-3330{" "}
+                +1-(312)-765-7097{" "}
               </a>
               <button
                 onClick={() => setOpenModal(true)}

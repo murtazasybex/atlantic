@@ -11,29 +11,5 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script
-      id="ze-snippet"
-      src="https://static.zdassets.com/ekr/snippet.js?key=2c529d5c-f333-4d08-9b30-0662a3076a28"
-    ></script>
-    <script>
-      if (loggedIn) {
-        zE(function () {
-          zE.show();
-        });
-      }
-    </script>
-    <script>
-      zE(function () {
-        $zopim(function () {
-          $zopim.livechat.setOnUnreadMsgs(unread);
-
-          function unread(number) {
-            if (number >= 1) {
-              $zopim.livechat.window.show();
-            }
-          }
-        });
-      });
-    </script>
   </body>
 </html>

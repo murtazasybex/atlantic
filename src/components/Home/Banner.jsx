@@ -54,12 +54,12 @@ const Banner = () => {
                 Hire The Best Book Publishers Today!
               </NavLink>
               <a
-                href="tel: +1-(315)-417-3330"
+                href="tel: +1-(312)-765-7097"
                 className={`inline-block bg-[#28a745] hover:bg-gray-700 text-white py-3 px-5 mr-4 mb-3 rounded-full ${
                   isMobile ? "block mb-4" : "inline-block"
                 }`}
               >
-                Call Us at +1-(315)-417-3330
+                Call Us at +1-(312)-765-7097
               </a>
               <a
                 href="#"

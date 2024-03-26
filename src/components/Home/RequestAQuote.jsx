@@ -57,37 +57,6 @@ const RequestAQuote = () => {
             </button>
           </div>
         </form>
-        {/* <div className="flex flex-col md:flex-row justify-around py-20">
-          <h1 className="text-4xl font-bold text-center md:text-left md:mr-10">
-            Email Us
-          </h1>
-          <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-2 pt-3">
-            <img src={email} className="pt-8" alt="" />
-            <div>
-              <h1 className="font-bold text-2xl">
-                For project inquiries only:
-              </h1>
-              <a
-                href="mailto:info@atlanticbookpublisher.com"
-                className="hover:text-[#28a745] transition-colors"
-              >
-                info@atlanticbookpublisher.com
-              </a>
-            </div>
-          </div>
-          <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-2 pt-3">
-            <img src={phone} className="pt-8" alt="" />
-            <div>
-              <h1 className="font-bold text-2xl">For other inquiries only:</h1>
-              <a
-                href="tel: +1-(315)-417-3330"
-                className="hover:text-[#28a745] transition-colors"
-              >
-                +1-(315)-417-3330
-              </a>
-            </div>
-          </div>
-        </div> */}
       </section>
     </>
   );

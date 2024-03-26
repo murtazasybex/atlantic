@@ -34,10 +34,10 @@ const HireCompanyCTA = () => {
                   Looking For A Publishing Partner? Hire Us Today!
                 </NavLink>
                 <a
-                  href="tel:+1-(315)-417-3330"
+                  href="tel:+1-(312)-765-7097"
                   className="inline-block border-2 border-white text-white py-2 px-5 rounded-full"
                 >
-                  Call Us At +1-(315)-417-3330
+                  Call Us At +1-(312)-765-7097
                 </a>
               </div>
             </div>

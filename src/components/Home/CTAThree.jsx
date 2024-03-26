@@ -37,10 +37,10 @@ const CTAThree = () => {
                   Chat With Our Expert Now!
                 </NavLink>
                 <a
-                  href="tel: +1-(315)-417-3330"
+                  href="tel: +1-(312)-765-7097"
                   className="inline-block border-2 border-white text-white py-2 px-4 rounded-full"
                 >
-                  Call Us At +1-(315)-417-3330
+                  Call Us At +1-(312)-765-7097
                 </a>
               </div>
             </div>

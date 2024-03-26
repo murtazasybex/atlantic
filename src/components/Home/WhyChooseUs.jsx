@@ -1,5 +1,5 @@
 import React from "react";
-import { fiction, fictontwo, whychooseus } from "../../assets/images";
+import { fiction, fictontwo } from "../../assets/images";
 import { NavLink } from "react-router-dom";
 
 const WhyChooseUs = () => {
@@ -28,10 +28,10 @@ const WhyChooseUs = () => {
                 Consult With Our Expert Team Now!
               </NavLink>
               <a
-                href="tel:+1-(315)-417-3330"
+                href="tel:+1-(312)-765-7097"
                 className="inline-block  bg-[#28a745] text-white font-medium py-3 hover:bg-gray-800 transition-colors px-5 rounded-full"
               >
-                +1-(315)-417-3330
+                +1-(312)-765-7097
               </a>
             </div>
           </div>

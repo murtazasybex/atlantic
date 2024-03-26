@@ -19,44 +19,7 @@ const CTAOne = () => {
               your success story together! Choose our book publishing company
               and let your words come to life. Start your literary journey now!
             </p>
-            {/* <div className="flex flex-col md:flex-row justify-between w-full max-w-[500px]">
-              <ul className="list-disc flex flex-col space-y-4 md:w-1/2">
-                <li className="flex space-x-1">
-                  <img src={tick} alt="" />
-                  <span>Slow Productivity</span>
-                </li>
-                <li className="flex space-x-1">
-                  <img src={tick} alt="" />
-                  <span>Lack of Resources</span>
-                </li>
-                <li className="flex space-x-1">
-                  <img src={tick} alt="" />
-                  <span>Mismanaged Time Schedules</span>
-                </li>
-                <li className="flex space-x-1">
-                  <img src={tick} alt="" />
-                  <span>Financial Constraints</span>
-                </li>
-              </ul>
-              <ul className="list-disc flex flex-col space-y-4 md:w-1/2">
-                <li className="flex space-x-1">
-                  <img src={tick} alt="" />
-                  <span>Demotivation</span>
-                </li>
-                <li className="flex space-x-1">
-                  <img src={tick} alt="" />
-                  <span>Delayed Creativity Process</span>
-                </li>
-                <li className="flex space-x-1">
-                  <img src={tick} alt="" />
-                  <span>Delayed Writing Process</span>
-                </li>
-                <li className="flex space-x-1">
-                  <img src={tick} alt="" />
-                  <span>Continuous Revisions</span>
-                </li>
-              </ul>
-            </div> */}
+
             <div className="mt-6 space-x-3 flex flex-col sm:flex-row items-center">
               <button
                 onClick={() => setOpenModal(true)}
@@ -67,10 +30,10 @@ const CTAOne = () => {
               <Modal open={openModal} onClose={() => setOpenModal(false)} />
 
               <a
-                href="tel: +1-(315)-417-3330"
+                href="tel: +1-(312)-765-7097"
                 className="inline-block border-gray-700 text-gray-700 border-2 transition-colors py-4 px-4 rounded-full"
               >
-                Call at +1-(315)-417-3330
+                Call at +1-(312)-765-7097
               </a>
             </div>
           </div>

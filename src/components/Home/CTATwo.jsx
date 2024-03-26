@@ -19,7 +19,7 @@ const CTATwo = () => {
           </p>
           <div className="flex flex-col items-center space-y-5 my-5">
             <a href="tel:#" className="text-white font-semibold">
-              +1-(315)-417-3330
+              +1-(312)-765-7097
             </a>
             <a
               href="#"
