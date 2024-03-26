@@ -13,7 +13,7 @@ const StreamlinedPublishing = () => {
         {/* <h1 className="font-bold md:text-5xl text-3xl text-center text-[#28a745]">
           Why Choose Our Atlantic Publishing Services?
         </h1> */}
-        <div className="flex md:justify-evenly justify-center md:flex-row flex-col items-center my-10 mx-auto">
+        <div className="flex md:justify-evenly justify-center md:flex-row flex-col flex-wrap items-center my-10 mx-auto">
           <div className="w-full max-w-[700px] space-y-8 mb-8 md:mb-0">
             <h1 className="font-bold text-black md:text-5xl text-3xl">
               Autobiography
@@ -39,7 +39,7 @@ const StreamlinedPublishing = () => {
               </a>
             </div>
           </div>
-          <div className="flex md:flex-row flex-col gap-3">
+          <div className="flex md:flex-row flex-col gap-3 pt-10">
             <img
               src={autobiographyone}
               className="hover:border-[#28a745] w-full max-w-[400px] hover:border-2 transition-colors shadow-xl hover-transition"

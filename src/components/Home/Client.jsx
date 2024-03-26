@@ -23,7 +23,7 @@ const Client = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
         },
       },
       {
@@ -45,8 +45,8 @@ const Client = () => {
 
   return (
     <>
-      <section className="w-full bg-[#212529] py-14 relative">
-        <div className="container mx-auto">
+      <section className="bg-[#212529] relative">
+        <div className="container mx-auto md:px-10 px-8 py-14">
           <Slider ref={sliderRef} {...settings}>
             {partnerLogos.map((logo, index) => (
               <div key={index} className="mx-2">

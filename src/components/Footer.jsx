@@ -30,7 +30,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="w-full mx-auto bg-[#171C22] h-50">
+      <footer className="w-full mx-auto bg-[#171C22] h-50 px-2">
         <div className="flex flex-col lg:flex-row justify-between container mx-auto py-20 px-5">
           {/* col1 */}
           <div className="space-y-3 mb-10 w-full max-w-[350px] lg:mb-0">
@@ -115,19 +115,21 @@ const Footer = () => {
             </h1>
             <div className="flex flex-col space-y-3 pt-2">
               <NavLink
-                to="/"
+                to="https://atlanticbookpublisher.com/"
                 className="text-white hover:text-[#28a745] transition-colors cursor-pointer"
               >
                 Home
               </NavLink>
               <NavLink
-                to="/about-us"
+                target="_blank"
+                to="https://atlanticbookpublisher.com/about-us"
                 className="text-white hover:text-[#28a745] transition-colors cursor-pointer"
               >
                 About
               </NavLink>
               <NavLink
-                href="/contact"
+                target="_blank"
+                to="https://atlanticbookpublisher.com/contact"
                 className="text-white hover:text-[#28a745] transition-colors cursor-pointer"
               >
                 Contact
@@ -141,31 +143,36 @@ const Footer = () => {
             </h1>
             <div className="flex flex-col space-y-3 pt-2">
               <NavLink
-                to="publishing"
+                target="_blank"
+                to="https://atlanticbookpublisher.com/publishing"
                 className="text-white hover:text-[#28a745] transition-colors cursor-pointer"
               >
                 Publishing
               </NavLink>
               <NavLink
-                to="children-book-illustration"
+                target="_blank"
+                to="https://atlanticbookpublisher.com/children-book-illustration"
                 className="text-white hover:text-[#28a745] transition-colors cursor-pointer"
               >
                 Book Illustration
               </NavLink>
               <NavLink
-                to="ghostwriting"
+                target="_blank"
+                to="https://atlanticbookpublisher.com/ghostwriting"
                 className="text-white hover:text-[#28a745] transition-colors cursor-pointer"
               >
                 Ghostwriting
               </NavLink>
               <NavLink
-                to="book-writing"
+                target="_blank"
+                to="https://atlanticbookpublisher.com/book-writing"
                 className="text-white hover:text-[#28a745] transition-colors cursor-pointer"
               >
                 Book Writing
               </NavLink>
               <NavLink
-                to="book-marketing"
+                target="_blank"
+                to="https://atlanticbookpublisher.com/book-marketing"
                 className="text-white hover:text-[#28a745] transition-colors cursor-pointer"
               >
                 Book Marketing
@@ -205,14 +212,16 @@ const Footer = () => {
           <div className="text-white text-center lg:text-left">
             <div className="space-x-2">
               <NavLink
-                to="terms-and-conditions"
+                target="_blank"
+                to="https://atlanticbookpublisher.com/terms-and-conditions"
                 className="hover:text-[#28a745] transition-colors cursor-pointer"
               >
                 Terms of Use
               </NavLink>
               <span>|</span>
               <NavLink
-                to="privacy-policy"
+                target="_blank"
+                to="https://atlanticbookpublisher.com/privacy-policy"
                 className="hover:text-[#28a745] transition-colors cursor-pointer"
               >
                 Privacy Policy

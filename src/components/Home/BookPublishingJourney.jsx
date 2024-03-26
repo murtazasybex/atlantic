@@ -21,7 +21,7 @@ const BookPublishingJourney = () => {
 
         <div className="flex flex-wrap justify-center md:justify-evenly items-center">
           {/* col1 */}
-          <div>
+          <div className="xl:space-y-0 space-y-8">
             <div className="border border-[#cbcbcb] py-12 px-3 w-full max-w-[500px] hover-transition">
               <h1 className="font-semibold text-xl pb-2">
                 Manuscript Assessment
@@ -32,7 +32,7 @@ const BookPublishingJourney = () => {
                 strengths and areas for improvement.
               </p>
             </div>
-            <h1 className="font-semibold text-[#28a745] text-5xl text-right py-8">
+            <h1 className="font-semibold lg:flex hidden text-[#28a745] text-5xl text-right py-8">
               02
             </h1>
             <div className="border border-[#cbcbcb]  py-12 px-3 w-full max-w-[500px] hover-transition">
@@ -44,7 +44,7 @@ const BookPublishingJourney = () => {
                 voice.
               </p>
             </div>
-            <h1 className="font-semibold text-[#28a745] text-5xl text-right py-8">
+            <h1 className="font-semibold lg:flex hidden text-[#28a745] text-5xl text-right py-8">
               04
             </h1>
             <div className="border border-[#cbcbcb] py-12 px-3 w-full max-w-[500px] hover-transition">
@@ -61,10 +61,10 @@ const BookPublishingJourney = () => {
             </div>
           </div>
           {/* col2 */}
-          <img src={line} className="lg:flex hidden line-img h-full" alt="" />
+          <img src={line} className="xl:flex hidden line-img h-full" alt="" />
           {/* col3 */}
-          <div>
-            <h1 className="font-semibold text-[#28a745] text-5xl text-left py-8">
+          <div className="xl:space-y-0 space-y-8">
+            <h1 className="font-semibold lg:flex hidden text-[#28a745] text-5xl text-left py-8">
               01
             </h1>
             <div className="border border-[#cbcbcb] py-12 px-3 w-full max-w-[500px] hover-transition">
@@ -77,7 +77,7 @@ const BookPublishingJourney = () => {
                 coherence, and compelling storytelling.
               </p>
             </div>
-            <h1 className="font-semibold text-[#28a745] text-5xl text-left py-8">
+            <h1 className="font-semibold lg:flex hidden text-[#28a745] text-5xl text-left py-8">
               03
             </h1>
             <div className="border border-[#cbcbcb] py-12 px-3 w-full max-w-[500px] hover-transition">
@@ -88,7 +88,7 @@ const BookPublishingJourney = () => {
                 highest level of quality.
               </p>
             </div>
-            <h1 className="font-semibold text-[#28a745] text-5xl text-left py-14">
+            <h1 className="font-semibold lg:flex hidden  text-[#28a745] text-5xl text-left py-14">
               05
             </h1>
           </div>

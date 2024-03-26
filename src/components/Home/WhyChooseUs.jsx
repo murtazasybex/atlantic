@@ -9,7 +9,7 @@ const WhyChooseUs = () => {
         <h1 className="font-bold md:text-5xl text-3xl text-center text-[#28a745]">
           Why Choose Our Atlantic Publishing Services?
         </h1>
-        <div className="flex md:justify-evenly justify-center md:flex-row flex-col items-center my-20 mx-auto">
+        <div className="flex md:justify-evenly justify-center md:flex-row flex-wrap flex-col items-center my-14 mx-auto">
           <div className="w-full max-w-[700px] space-y-8">
             <h1 className="font-bold text-black md:text-5xl text-3xl">
               Fiction
@@ -35,7 +35,7 @@ const WhyChooseUs = () => {
               </a>
             </div>
           </div>
-          <div className="flex md:flex-row flex-col gap-3">
+          <div className="flex md:flex-row flex-col gap-3 pt-14">
             <img
               src={fiction}
               className="hover:border-[#28a745] w-full max-w-[230px] hover:border-2 md:mt-0 mt-8 transition-colors shadow-xl hover-transition"

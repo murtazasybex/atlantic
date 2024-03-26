@@ -9,8 +9,8 @@ const EnhancedVisibility = () => {
         {/* <h1 className="font-bold md:text-5xl text-3xl text-center text-[#28a745]">
           Why Choose Our Atlantic Publishing Services?
         </h1> */}
-        <div className="flex md:justify-evenly justify-center md:flex-row flex-col items-center my-10 mx-auto">
-          <div className="flex md:flex-row flex-col gap-3">
+        <div className="flex md:justify-evenly justify-center md:flex-row flex-wrap flex-col items-center my-10 mx-auto">
+          <div className="flex md:flex-row flex-col gap-3 pb-10">
             <img
               src={nonfictionone}
               className="hover:border-[#28a745] mb-5 md:mb-0 w-full max-w-[250px] hover:border-2 transition-colors shadow-xl hover-transition"

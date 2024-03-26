@@ -7,7 +7,7 @@ const CTAOne = () => {
   return (
     <>
       <section className="mx-auto container py-10 px-2">
-        <div className="flex flex-col md:flex-row items-center justify-center">
+        <div className="flex flex-col md:flex-row items-center flex-wrap justify-center">
           <div className="w-full max-w-[650px] space-y-8 mb-8 md:mb-0 md:mr-8">
             <h1 className="text-black md:text-5xl text-2xl font-bold leading-10">
               Choose Our{" "}
@@ -37,7 +37,7 @@ const CTAOne = () => {
               </a>
             </div>
           </div>
-          <div className="border border-[#28a745] shadow-xl rounded-lg px-14 pt-6">
+          <div className="border border-[#28a745] shadow-xl md:mt-10 rounded-lg px-14 pt-6">
             <h1 className="text-2xl text-[#28a745] italic font-bold text-center">
               Can't Reach Us?
             </h1>

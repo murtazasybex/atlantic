@@ -12,7 +12,7 @@ const OurExperts = () => {
           Allow our professional book publishers to assist you in your literary
           endeavors.
         </p>
-        <div className="flex flex-wrap md:justify-between justify-center w-full max-w-[1200px] gap-14 mx-auto">
+        <div className="flex flex-wrap xl:justify-between justify-center w-full max-w-[1200px] gap-14 mx-auto">
           {booksOne.map((book, index) => (
             <img
               key={index}

@@ -9,8 +9,8 @@ const ComprehensiveMarketing = () => {
         {/* <h1 className="font-bold md:text-5xl text-3xl text-center text-[#28a745]">
           Why Choose Our Atlantic Publishing Services?
         </h1> */}
-        <div className="flex md:justify-evenly justify-center md:flex-row flex-col items-center my-10 pb-8 mx-auto">
-          <div className="flex md:flex-row flex-col gap-3">
+        <div className="flex md:justify-evenly justify-center md:flex-row flex-col flex-wrap items-center my-10 pb-8 mx-auto">
+          <div className="flex md:flex-row flex-col gap-3 pb-10">
             <img
               src={memoireone}
               className="hover:border-[#28a745] hover-transition w-full max-w-[450px] mb-8 md:mb-0 hover:border-2 transition-colors shadow-xl"
